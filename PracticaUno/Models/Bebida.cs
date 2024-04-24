@@ -16,9 +16,19 @@ namespace PracticaUno.Models
             return nombre;
         }
 
+        public int GetCantidad() 
+        { 
+           return cantidad;
+        }
+
         public void SetNombre(string nombre)
         {
             this.nombre = nombre;
+        }
+
+        public void SetCantidad(int cantidad)
+        {
+            this.cantidad = cantidad;
         }
         public Bebida(string nombre, int cantidad) //CONSTRUCTOR
         {
@@ -30,6 +40,8 @@ namespace PracticaUno.Models
         {
             this.cantidad -= cuantoBebio;
         }
+
+        public Bebida() { }
     }
 
 }
