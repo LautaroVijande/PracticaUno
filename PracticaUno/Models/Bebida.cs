@@ -41,7 +41,10 @@ namespace PracticaUno.Models
             this.cantidad -= cuantoBebio;
         }
 
-        public Bebida() { }
+        public Bebida() 
+        {
+
+        }
     }
 
 }
