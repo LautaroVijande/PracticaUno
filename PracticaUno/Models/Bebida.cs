@@ -30,7 +30,7 @@ namespace PracticaUno.Models
         {
             this.cantidad = cantidad;
         }
-        public Bebida(string nombre, int cantidad) //CONSTRUCTOR
+        public Bebida(string nombre, int cantidad)//CONSTRUCTOR
         {
             this.nombre = nombre;
             this.cantidad = cantidad;

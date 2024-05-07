@@ -14,8 +14,11 @@ namespace PracticaUno.Models
 
         }
             
+        public int alcohol { get; set; }            
         
-            
-        
+        public void maxRecomendado ()
+        {
+            Console.WriteLine("El maximo de vinos es de dos botellas por persona");
+        }
     }
 }
